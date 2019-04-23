@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>CV</title>
+	    <!-- Tell the browser to be responsive to screen width -->
+    <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+    <!-- Bootstrap 3.3.5 -->
+    <link rel="stylesheet" href="public/css/bootstrap.min.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="public/css/font-awesome.css">
+    <link href="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css" rel="stylesheet">
+
+    
+    <!-- Theme style -->
+    <link rel="stylesheet" href="public/css/AdminLTE.min.css">
+    <!-- AdminLTE Skins. Choose a skin from the css/skins
+         folder instead of downloading all of them to reduce the load. -->
+    <link rel="stylesheet" href="public/css/_all-skins.min.css">
+    <link rel="icon" type="image/png" href="https://bolsa.realtyworld.com.mx/favicon.png">
+	<style>
+
+
+.body {
+    background-color: white ;
+    font-family: Helvetica, sans-serif;
+}
+
+/* The actual timeline (the vertical ruler) */
+.timeline {
+   
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* The actual timeline (the vertical ruler) */
+.timeline::after {
+    content: '';
+    position: absolute;
+    width: 6px;
+    background-color: #333;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    margin-left: -3px;
+}
+
+/* Container around content */
+.container {
+    padding: 10px 40px;
+    position: relative;
+    background-color: inherit grey;
+    width: 50%;
+    border-top: 5px solid #000;
+}
+
+/* The circles on the timeline */
+.container::after {
+    content: '';
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    right: -17px;
+    background-color: black;
+    border: 4px solid white;
+    top: 15px;
+    border-radius: 50%;
+    z-index: 1;
+}
+
+/* Place the container to the left */
+.left {
+    left: -25.5%;
+}
+
+/* Place the container to the right */
+.right {
+    left: 25.5%;
+}
+
+/* Add arrows to the left container (pointing right) */
+.left::before {
+    content: " ";
+    height: 0;
+    position: absolute;
+    top: 22px;
+    width: 0;
+    z-index: 1;
+    right: 30px;
+    border: medium solid #333;
+    border-width: 10px 0 10px 10px;
+    border-color:transparent transparent transparent #333;
+}
+
+/* Add arrows to the right container (pointing left) */
+.right::before {
+    content: " ";
+    height: 0;
+    position: absolute;
+    top: 22px;
+    width: 0;
+    z-index: 1;
+    left: 30px;
+    border: medium solid #333;
+    border-width: 10px 10px 10px 0;
+    border-color: transparent #333 transparent transparent;
+}
+
+/* Fix the circle for containers on the right side */
+.right::after {
+    left: -16px;
+}
+
+/* The actual content */
+.content1 {
+    padding: 20px 30px;
+    position: relative;
+    border-radius: 6px;
+    border: 1px solid #000;
+}
+.vl {
+     border-left: 6px solid #5e615e;
+    height: 283px;
+    position: absolute;
+    left: 28%;
+    margin-left: -20px;
+    top: 55px;
+}
+/* Media queries - Responsive timeline on screens less than 600px wide */
+@media screen and (max-width: 600px) {
+  /* Place the timelime to the left */
+  .timeline::after {
+    left: 31px;
+  }
+  
+  /* Full-width containers */
+  .container {
+    width: 100%;
+    padding-left: 70px;
+    padding-right: 25px;
+  }
+  
+  /* Make sure that all arrows are pointing leftwards */
+  .container::before {
+    left: 60px;
+    border: medium solid grey;
+    border-width: 10px 10px 10px 0;
+    border-color: transparent grey transparent transparent;
+  }
+
+  /* Make sure all circles are at the same spot */
+  .left::after, .right::after {
+    left: 15px;
+  }
+  
+  /* Make all right containers behave like the left ones */
+  .right {
+    left: 0%;
+  }
+  
+}
+.danger{
+  	color: #fff;
+  }
+</style>
+</head>
+<body class="skin-blue-light ">
+	<div class="wrapper">
+    <header class="main-header">
+      <!-- Logo -->
+      <a href="#" class="logo">
+        <img class="logo-lg" src="https://www.realtyworld.com.mx/cursos/img/logo2.png" alt="20px" width="180px" style="background-color:;" class="danger btn-sm"/>
+        <span class="logo-lg"><b>Coaching</b></span>
+      </a>
+      <!-- Header Navbar: style can be found in header.less -->
+      <nav class="navbar navbar-static-top" role="navigation">
+        <a href="#" class="sidebar-toggle" data-toggle="offcanvas" role="button">
+          <span class="sr-only">Navegación</span>
+        </a>
+      </nav>
+    </header>
+      
+    <!--<aside class="main-sidebar">
+      <section class="sidebar">       
+        <ul class="sidebar-menu">
+          <li class="header"></li>
+          <li>
+            <a href="#1">
+              <i class="fa fa-plus-square"></i> <span>Video 1</span>
+            </a>
+          </li>
+          <li>
+            <a href="#2">
+              <i class="fa fa-info-circle"></i> <span>Video2</span>
+            </a>
+          </li>   
+          <li>
+            <a href="#3">
+              <i class="fa fa-info-circle"></i> <span>Video 3</span>
+            </a>
+          </li>          
+        </ul>
+      </section>
+    </aside>-->
+  </div>
+<div class="content-wrapper">   
+  <div class="tab-content">      
+    <section class="content">
+      <div class="row">
+      	<div class="col-md-12">
+        	 <div class="container-fluid col-md-12" > 
+        	 	 <div class="panel panel-default ">
+
+					       <center><h1><i class="fa fa-book"></i> Datos Personales</h1></center>
+        	 		<div class="panel-body">        	 					
+						<div class="container-fluid col-md-3" >
+       	       				<center><img srcset="public/img/untitled.svg" alt="My logo" style="position: relative; height:290px; padding-top: 18px; " ></center>
+						</div>
+						<div class="container-fluid col-md-9" style="padding-left: 70px; ">
+							<hr style="border-color: #123455;">
+        	 				<h2></h2>
+        	 				<h3><strong>Nombre: </strong><i class="fa fa-user"></i>  <em>Pedro</em> </h3>
+        	 				<h3><strong>Apellidos: </strong> <em>Hernández Hernández</em></h3>
+        	 				<h3><strong>Fecha de nacimiento: </strong><i class="fa fa-calendar-check-o" ></i> <em>11/02/93</em> </h3>
+        	 				<h3><strong>Lugar de nacimiento: </strong><i class="fa fa-map-marker" ></i> <em>Hidalgo, México</em></h3><br>
+						</div>
+						<div class="container-fluid col-md-12">
+							<center>          				      	
+          				     <div class="panel-group" id="accordion">
+							  <div class="panel panel-default">
+							    <div class="panel-heading">
+							      <h4 class="panel-title">
+							        <i class="fa fa-link fa-lg"></i><a data-toggle="collapse" data-parent="#accordion" href="#collapse2">
+							        <strong class="text-danger"> Enalces del Menú</strong>  <i class="fa fa-angle-double-down"></i></a>
+							      </h4>
+							    </div>
+							    <div id="collapse2" class="panel-collapse collapse">
+							      	<div class="panel-body">
+										<aside >
+										  <section >       
+										    <ul class="sidebar-menu">
+										      <li>
+										        <a href="index.html">
+										          <i class="fa fa-thumb-tack"></i> <span>Inicio</span>
+										        </a>
+										      </li>
+										      <li>
+										        <a href="educacion.html">
+										          <i class="fa fa-thumb-tack"></i> <span>Educación</span>
+										        </a>
+										      </li>   
+										      <li>
+										        <a href="experiencia.html">
+										          <i class="fa fa-thumb-tack"></i> <span>Experiencia</span>
+										        </a>
+										      </li>          
+										    </ul>
+										  </section>
+										</aside>
+									</div>
+							    </div>
+							  </div>
+							</div></center>
+        				</div><!-- /.col 12 -->
+                <div class="col-md-12">
+                  <div class="container-fluid col-md-5" ><h2><i class="fa fa-caret-right"></i>Educación </h2></div>
+                </div>
+
+                <div class="col-md-12">
+                    
+                   <table class="table table-striped table-bordered">
+					           <thead>
+					             <tr>
+					               <th scope="col">Año</th>
+					               <th scope="col">Institución</th>
+                        <th scope="col">Lugar</th>
+					               <th scope="col">¿Culminó?</th>
+					               
+					             </tr>
+					           </thead>
+					           <tbody>
+					             <tr>
+					               <th scope="row">2005-2008</th>
+					               <td>Telesecundaria</td>
+					               <td>Santa teresa</td>
+					               <td><i class="fa fa-check" style="color:#dd4b39;" aria-hidden="false"></i></td>
+					             </tr>
+					             <tr>
+					               <th scope="row">2008-2011</th>
+					               <td style="color: green; font-weight: bold;">Cobaeh</td>
+					               <td>Santa teresa</td>
+					               <td><i class="fa fa-check" style="color:#dd4b39;" aria-hidden="false"></i></td>
+					             </tr>
+					             <tr>
+					               <th scope="row">2011-2015</th>
+                        <td style="color: green; font-weight: bold;">UTHH</td>
+                        <td>Huejutla de Reyes, Hidalgo</td>
+					               <td><i class="fa fa-check" style="color:#dd4b39;" aria-hidden="false"></i></td>
+					             </tr>
+					           </tbody>
+					         </table>
+                </div>
+              
+                     <div class="col-md-12">
+                  <div class="container-fluid col-md-5" ><h2><i class="fa fa-caret-right"></i>Agregar Estudios </h2></div>
+                </div>
+
+                <div class="col-md-8">
+                    <form method="post">
+                       <div class="form-group row">
+                         <label for="ano" class="col-sm-2 col-form-label">Año:</label>
+                         <div class="col-sm-10">
+                           <select class="form-control inline" id="ano" required="">
+                             <option>2018</option>
+                             <option>2019</option>
+                             <option>2020</option>
+                             <option>2021</option>
+                             <option>2022</option>
+                           </select>   
+                         </div>
+                       </div>
+                      
+                       <div class="form-group row">
+                         <label for="institucion" class="col-sm-2 col-form-label">Institución:</label>
+                         <div class="col-sm-10">
+                           <input type="email" class="form-control" id="institucion" placeholder="Institución" required="">
+                         </div>
+                       </div>
+                       <div class="form-group row">
+                         <label for="lugar" class="col-sm-2 col-form-label">Lugar:</label>
+                         <div class="col-sm-10">
+                           <input type="text" class="form-control" id="lugar" placeholder="Lugar" required="">
+                         </div>
+                       </div>
+                       <div class="form-group row">
+                        <div class="col-sm-10">
+                         </div>
+                         <div class="col-sm-2">
+                           <button type="submit" class="btn btn-default flat">Enviar</button>
+                         </div>
+                       </div>
+                    </form>
+                   
+                </div>
+
+					<!--   <div class="container-fluid col-md-12">
+            <div class="timeline body">
+            <div class="container left">
+              <div class="content1">
+                <h2>2017</h2>
+                <hr style="border-color: #123455;">
+                <p>Lorem ipsum dolor sit amet, quo ei simul congue exerci, ad nec admodum perfecto mnesarchum, vim ea mazim fierent detracto. Ea quis iuvaret expetendis his, te elit voluptua dignissim per, habeo iusto primis ea eam.</p>
+              </div>
+            </div>
+            <div class="container right">
+              <div class="content1">
+                <h2>2016</h2>
+                <hr style="border-color: #123455;">
+                <p>Lorem ipsum dolor sit amet, quo ei simul congue exerci, ad nec admodum perfecto mnesarchum, vim ea mazim fierent detracto. Ea quis iuvaret expetendis his, te elit voluptua dignissim per, habeo iusto primis ea eam.</p>
+              </div>
+            </div>
+            <div class="container left">
+              <div class="content1">
+                <h2>2015</h2>
+                <hr style="border-color: #123455;">
+                <p>Lorem ipsum dolor sit amet, quo ei simul congue exerci, ad nec admodum perfecto mnesarchum, vim ea mazim fierent detracto. Ea quis iuvaret expetendis his, te elit voluptua dignissim per, habeo iusto primis ea eam.</p>
+              </div>
+            </div>
+            <div class="container right">
+              <div class="content1">
+                <h2>2012</h2>
+                <hr style="border-color: #123455;">
+                <p>Lorem ipsum dolor sit amet, quo ei simul congue exerci, ad nec admodum perfecto mnesarchum, vim ea mazim fierent detracto. Ea quis iuvaret expetendis his, te elit voluptua dignissim per, habeo iusto primis ea eam.</p>
+              </div>
+            </div>
+            <div class="container left">
+              <div class="content1">
+                <h2>2011</h2>
+                <hr style="border-color: #123455;">
+                <p>Lorem ipsum dolor sit amet, quo ei simul congue exerci, ad nec admodum perfecto mnesarchum, vim ea mazim fierent detracto. Ea quis iuvaret expetendis his, te elit voluptua dignissim per, habeo iusto primis ea eam.</p>
+              </div>
+            </div>
+            <div class="container right">
+              <div class="content1">
+                <h2>2007</h2>
+                <hr style="border-color: #123455;">
+                <p>Lorem ipsum dolor sit amet, quo ei simul congue exerci, ad nec admodum perfecto mnesarchum, vim ea mazim fierent detracto. Ea quis iuvaret expetendis his, te elit voluptua dignissim per, habeo iusto primis ea eam.</p>
+              </div>
+            </div>
+          </div>
+          </div> -->
+
+        	 		</div>
+        	  	</div>
+        	</div> 
+      	</div>
+      </div><!-- /.row -->
+    </section><!-- /.content -->  
+  </div><!-- /.tab-content -->
+</div><!-- /.content-wrapper -->
+
+    <footer class="main-footer" style="background-color:black">
+        <div class="pull-right hidden-xs">
+          <b class="danger">Version | Exámen</b> 
+        </div>
+        
+        <div class="row">
+        <div class="col-md-12">
+          <div class="col-sm-6">
+            <i class="fa fa-envelope-o fa-1x danger">&nbsp;soporterw@realtyworld.com.mx</i><br><i class="fa fa-facebook-official fa-1x danger">&nbsp;@pitth7</i>
+          </div>
+          <div class="col-sm-6">
+            <i class="fa fa-phone fa-1x danger" aria-hidden="true">&nbsp;81-23-37-65-61</i><br><i class="fa fa-map-marker fa-1x danger" aria-hidden="true">&nbsp;San pedro, Garza, Garcia</i>
+          </div>
+        </div></div>
+        
+    </footer>    
+    <!-- jQuery -->
+    <script src="public/js/jquery-3.1.1.min.js"></script>
+    <!-- Bootstrap 3.3.5 -->
+    <script src="public/js/bootstrap.min.js"></script>
+    <!-- AdminLTE App -->
+    <script src="public/js/app.min.js"></script>
+
+
+
+    <script src="public/js/bootbox.min.js"></script> 
+    <script src="public/js/bootstrap-select.min.js"></script>
+
+</body>
+</html>
